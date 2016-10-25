@@ -9,6 +9,8 @@ before_install:
 
 install:
   - sudo apt-get install -qq libeigen3-dev
+  - mkdir $HOME/testspace
+  - tar -zxvf testspace-linux.tgz -C $HOME/testspace
 
 before_script:
   - mkdir build
