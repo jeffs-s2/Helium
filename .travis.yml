@@ -9,7 +9,6 @@ before_install:
 
 install:
   - sudo apt-get install -qq libeigen3-dev
-  - curl -s https://testspace-client.s3.amazonaws.com/testspace-linux.tgz | sudo tar -zxvf- -C /user/local/bin
 
 before_script:
   - mkdir build
